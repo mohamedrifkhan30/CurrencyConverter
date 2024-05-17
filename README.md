@@ -40,3 +40,7 @@ http://localhost:7287/swagger
 Configuration settings for the application can be found in the appsettings.json file. You can set up different environments (e.g., Development, Staging, Production) by creating appsettings.{Environment}.json files.
 
 **Improvement**
+
+ - Some variables are in code  need to be moved to configuration file.
+ - Can move services, util to different class library project and reference. 
+ - Can implement the test.
